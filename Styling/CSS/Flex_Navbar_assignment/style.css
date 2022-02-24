@@ -1,0 +1,17 @@
+*{
+    margin: auto;
+}
+.nav{
+    margin: 25px;
+    background-color: grey;
+    display: flex;
+}
+.nav-title{
+    margin: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+.nav-links{
+    display: flex;
+
+}

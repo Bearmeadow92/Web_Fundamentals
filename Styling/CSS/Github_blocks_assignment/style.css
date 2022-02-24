@@ -1,0 +1,53 @@
+*{
+    margin: auto;
+    padding: 10px;
+}
+.header{
+    text-align: center;
+    font-family: fantasy;
+}
+.wholecontainer{
+    background-color: white;
+    margin: 10px;
+}
+.topcontainer{
+    background-color: lightblue;
+    margin: -20px;
+    margin-bottom: 50px;
+}
+.imgtop{
+    width: 250px;
+}
+.toprow{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    justify-content: center;
+}
+.middlecontainer{
+    background-color: pink;
+    margin: -20px;
+    margin-bottom: 50px;
+}
+.imgmid{
+    width: 250px;
+}
+.middlerow{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
+.botcontainer{
+    background-color: beige;
+    margin: -20px;
+
+}
+.imgbot{
+    width: 250px;
+}
+.botrow{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    justify-content: center;
+}
