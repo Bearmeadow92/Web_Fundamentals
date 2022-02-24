@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+    <body>
+        <h1>Registration Form</h1>
+            <form action="/process">
+                <div>
+                    <label><strong>First Name*</strong></label>
+                    <input type="text" name="first_name">
+                </div>
+                <div>
+                    <label><strong>Last Name*</strong></label>
+                    <input type="text" name="last_name">
+                </div>
+                <div>
+                    <label><strong>Email Address*</strong></label>
+                    <input type="text" name="email">
+                </div>
+                <div>
+                    <label><strong>Password*</strong></label>
+                    <input type="password" name="password">
+                </div>
+                <div>
+                    <label><strong>Confirm Password*</strong></label>
+                    <input type="password" name="confirm_password">
+                </div>
+                <div>
+                    <label><strong>Birthday:</strong></label>
+                    <input type="date" name="dob">
+                </div>
+            <div>
+                <label><strong>Gender Identity</strong></label>
+            </div>
+                <input type="radio" name="font" value="bold" id="male">
+                <label><for="male"><strong>Male</strong></label>
+                <input type="radio" name="font" value="bold" id="female">
+                <label><for="female"><strong>Female</strong></label>
+                <input type="radio" name="font" value="bold" id="non-binary">
+                <label><for="non-binary"><strong>Non-binary</strong></label>
+                <input type="radio" name="font" value="bold" id="i_prefer_not_to_answer">
+                <label><for="i_prefer_not_to_answer"><strong>I prefer not to answer</strong></label>
+            <div>
+                <label><strong>A short description about myself:</strong></label>
+            </div>
+            <div>
+                <textarea name="a_short_description" cols="20" rows="3"></textarea>        
+            </div>
+            <div>
+                <label><for="favorite_language"><strong>Favorite Language:</strong></label>
+                <select name="coding_languages">
+                    <option>JavaScript</option>
+                    <option>Python</option>
+                    <option>Java</option>
+                    <option>HTML</option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" name="email_updates" id="yes">
+                    <label><for="yes"><strong>Yes, I would like to recieve periodic email updates</strong><label>
+            </div>
+            <div> 
+                <input type="submit" value="Create Account">
+            </div>
+            <div>
+                <p><strong>*Indicates a required field</strong></p>
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 10px;
+    height: 40px;
+}
+
+#Search{
+    color: teal;
+    border-radius: 150px;
+    width: 150px;
+    font-weight: 900;
+    background-color: white;
+}
+
+#Plus{
+    color: white;
+    border-radius: 100px;
+    border: 0px;
+    width: 40px;
+    font-weight: 900;
+    background-color: rgb(77, 170, 170);
+}
+
+#Create{
+    box-shadow: 5px 5px 0px black;
+    width: 150px;
+    color: white;
+    background-color: blue
+}
