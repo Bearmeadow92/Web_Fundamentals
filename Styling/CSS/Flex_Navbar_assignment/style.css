@@ -1,17 +1,38 @@
 *{
     margin: auto;
+    font-family: cursive;
 }
 .nav{
-    margin: 25px;
-    background-color: grey;
+    height: 45px;
+    width: 1250px;
+    margin: 5px;
+    background-color: rgb(71, 71, 71);
     display: flex;
 }
 .nav-title{
     margin: 10px;
     display: flex;
+    padding: 32px;
     align-items: flex-end;
+    color: white;
 }
 .nav-links{
     display: flex;
-
+    width: 475px;
+    list-style-type: none;
+    margin-left: 520px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    width: 50px;
+}
+.btn{
+    height: 35px;
+    width: 100px;
+    background-color: rgb(90, 157, 184);
+    color: white;
+    border-style: inherit;
+    font-size: 16px;
+    box-shadow: 2px 1px 2px 3px black;
 }
