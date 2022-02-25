@@ -1,0 +1,26 @@
+*{
+margin: auto;
+}
+
+.row{
+    display: flex;
+
+}
+.col{
+    padding: 25px;
+    flex: 2;
+    margin: 15px;
+    background-color: bisque;
+}
+.col-2{
+    padding: 25px;
+    flex: 4;
+    margin: 15px;
+    background-color:bisque
+}
+.col-3{
+    flex: 6;
+    padding: 25px;
+    margin: 15px;
+    background-color: bisque
+}
