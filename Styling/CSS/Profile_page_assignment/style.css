@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 1200px;
+    background-color: white;
+}
+/* ------------------NAVBAR------------------*/
+
+.navbar{
+    background-color: black;
+    min-height: 100px; 
+    padding: 0px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar > h1{
+    color: white;
+    font-family: cursive;
+    display: flex;
+    margin-right: 20px;
+}
+.navbar-links{
+    color: white;
+    font-family: cursive;
+}
+.navbar-links ul{
+    list-style-type: none;
+    display: flex;
+}
+.navbar-links a{
+    color: white;
+    text-decoration: none;
+}
+.navbar-links li{
+    margin: 15px;
+
+}
+.button{
+    margin-left: 230px;
+    box-shadow: 5px 5px 0px black;
+    border: 1px;
+    width: 90px;
+    height: 25px;
+    color: white;
+    background-color: blue
+}
+
+/* ------------------NAVBAR------------------*/
+/*------------------CARD------------------*/
+.body{
+    display: flex;
+    
+}
+.left-col{
+    min-height: 100px;
+    background-color: white;
+    margin-left: 20px;
+    width: 900px;
+}
+.card{
+    background-color: white;
+    min-height: 220px;
+    margin-left: 165px;
+    margin-right: 255px;
+    border: solid;
+    border-color: grey;
+}
+.right-col{
+    min-height: 100px;
+background-color: white;
+margin-left: -230px;
+width: 290px;
+}
+.top-box{
+    height: 100px;
+    background-color: teal;
+    margin-top: 45px;
+    margin-left: 165px;
+    margin-right: 255px;
+}
+#jane{
+    margin-top: -30px;
+    margin-left: 65px;
+    margin-right: 0px;
+    width: 75px;
+    border-radius: 50%;
+}
+.card > h1{
+    font-family: cursive;
+    margin-left: 35px;
+}
+.marker{
+display: flex;
+
+}
+.marker > img{
+    width: 15px;
+    margin-left: 35px;
+}
+.marker > h3{
+    font-family: cursive;
+}
+.card > p{
+    font-family: cursive;
+    display: flex;
+    width: 300px;
+    padding-left: 37px;
+    padding-top: 10px;
+}
+.gear{
+    width: 20px;
+    margin-left: 35px;
+    padding-top: 5px;
+}
+.bot-box{
+    height: 40px;
+    background-color: rgb(58, 58, 58);
+    margin-top: 45px;
+    margin-left: 165px;
+    margin-right: 255px;
+}
+.bot-box > h5{
+    font-family: cursive;
+    color: white;
+    margin-left: 35px;
+    font-size: 13pt;
+    padding-top: 7px;
+}
+.bot-card{
+    background-color: white;
+    min-height: 85px;
+    margin-left: 165px;
+    margin-right: 255px;
+    border: solid;
+    border-color: grey;
+    font-family: cursive;
+    padding-left: 30px;
+}
+#date{
+    color: grey;
+}
+.tr-box{
+    min-height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: black;
+    margin-top: 45px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.tr-card{
+    min-height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    border: solid;
+    border-color: grey;
+}
+.two{
+    border-radius: 50%;
+    background-color: grey;
+    color: black;
+    height: 20px;
+    width: 20px;
+}
+.tr-box > h5{
+color: white;
+margin-left: 35px;
+padding-right: 70px;
+}
+.tr-box > h4{
+    margin-left: 25px;
+    text-align: center;
+}
+.tr-profile{
+display: flex;
+font-family: cursive;
+align-items: center;
+justify-content: space-evenly;
+}
+.tr-profile > img{
+    border-radius: 75px;
+    width: 45px;
+    padding: 5px;
+}
+/*------------*/
+.br-box{
+    min-height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: black;
+    margin-top: 45px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.br-card{
+    min-height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    border: solid;
+    border-color: gray;
+}
+.fiv{
+    border-radius: 50%;
+    background-color: grey;
+    color: black;
+    height: 20px;
+    width: 45px;
+}
+.br-box > h5{
+color: white;
+margin-left: 25px;
+padding-right: 70px;
+}
+.br-box > h4{
+    margin-left: 25px;
+    text-align: center;
+}
+.br-profile{
+display: flex;
+font-family: cursive;
+align-items: center;
+}
+.br-profile > img{
+    border-radius: 75px;
+    width: 45px;
+    padding: 5px;
+}
+.br-profile > p{
+    padding-left: 30px;
+}
+.lower-box{
+    border-top: solid;
+    border-color: grey;
+    height: 25px;
+}
+
+
+
+

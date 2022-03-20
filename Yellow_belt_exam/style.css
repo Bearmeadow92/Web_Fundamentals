@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1200px;
+    margin-left: 0px;
+}
+
+/*----------Nav bar----------*/
+
+.navbar{
+    background-color: black;
+    width: 1150px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+span{
+    color: purple;
+}
+#gaming{
+    color: white;
+    margin-left: 50px;
+}
+#money{
+    margin-left: 670px;
+    height: 30px;
+    width: 65px;
+}
+#cart-items{
+    text-decoration: underline;
+    color: white;
+}
+
+/*----------Nav bar----------*/
+/*----------main----------*/
+.slider{
+    height: 280px;
+    width: 350px;
+    margin-left: 150px;
+    display: flex;
+    margin-top: 110px;
+}
+#chevronl{
+    border: none;
+    background-color: white;
+}
+#chevronr{
+    border: none;
+    background-color: white;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin-left: -90px;
+}
+.sub-content{
+    height: 10px;
+    width: 80px;
+    margin: 30px;
+    background-color: gray;
+}
+.sub-contentp{
+    height: 10px;
+    width: 80px;
+    margin: 30px;
+    background-color: blueviolet;
+}
+/*----------main----------*/
+
+/*----------bottom----------*/
+.lower-container{
+    background-color: white;
+    height: 700px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    margin-left: 125px;
+}
+.l-box{
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    border: solid;
+}
+.tl-box{
+    height: 125px;
+    width: 294px;
+}
+.m-box{
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    border: solid;
+
+}
+.tm-box{
+    height: 125px;
+    width: 294px;
+}
+.r-box{
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    border: solid;
+}
+.tr-box{
+    height: 125px;
+    width: 294px;
+}
+#neko{
+    height: 125px;
+    width: 294px;
+}
+#ninja{
+    height: 125px;
+    width: 294px;
+}
+#punk{
+    height: 125px;
+    width: 294px;
+}
+#windowst{
+    height: 30px;
+    width: 30px;
+}
+#applet{
+    height: 30px;
+    width: 30px;
+}
+#windowsm{
+    height: 30px;
+    width: 30px;
+}
+#applem{
+    height: 30px;
+    width: 30px;
+}
+#windowsb{
+    height: 30px;
+    width: 30px;;
+}
+#appleb{
+    height: 30px;
+    width: 30px;
+}
+#linux{
+    height: 30px;
+    width: 30px;
+}
+.ll-box{
+    margin-top: 60px;
+    background-color: blueviolet;
+    height: 60px;
+    width: 60px;
+}
+.mm-box{
+    margin-top: 60px;
+    background-color: blueviolet;
+    height: 60px;
+    width: 60px;
+}
+.rr-box{
+    margin-top: 60px;
+    background-color: blueviolet;
+    height: 60px;
+    width: 60px;
+}
+#c{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+#v{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+#b{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+#munl{
+    margin-left: 120px;
+    margin-top: -20px;
+}
+#munm{
+    margin-left: 120px;
+    margin-top: -20px;
+}
+#munr{
+    margin-left: 120px;
+    margin-top: -20px;
+}
+#lb{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    margin-left: 245px;
+    margin-top: -47px;
+    text-align: center;
+}
+#mb{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    margin-left: 245px;
+    margin-top: -47px;
+    text-align: center;
+}
+#rb{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    margin-left: 245px;
+    margin-top: -47px;
+    text-align: center;
+}
+#buyl{
+    margin-top: 20px;
+    background-color: green;
+    border: none;
+}
+#buym{
+    margin-top: 20px;
+    background-color: green;
+    border: none;
+}
+#buyr{
+    margin-top: 15pt;
+    background-color: green;
+    border: none;
+}

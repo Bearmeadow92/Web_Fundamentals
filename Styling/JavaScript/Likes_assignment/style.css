@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1145px;
+    height: 770px;
+    font-family: cursive;
+    background-color: white;
+}
+.container > h1{
+    text-align: center;
+}
+.navbar{
+    margin-left: 230px;
+    margin-right: 250px;
+    background-color: black;
+}
+.navbar > h1{
+    color: white;
+}
+.profile{
+    width: 150px;
+    height: 250px;
+    margin-right: 50px;
+    border: solid black;
+}
+.profile-words{
+    margin-left: 25px;
+    padding-top: 25px
+}
+#avatar{
+    color: blue;
+    text-decoration: underline;
+}
+.profile-words > p{
+    padding-bottom: 20px;
+    margin-left: 0px;
+}
+h2{
+    margin-left:-14px;
+}
+img{
+    width: 100px;
+    padding-bottom: 15px;
+}
+.top{
+    height: 150px;
+    margin-bottom: 10px;
+    border: solid black;
+    justify-content: space-around;
+}
+.middle{
+    height: 150px;
+    border: solid black;
+    margin-bottom: 10px;
+}
+.bottom{
+    height: 150px;
+    border: solid black;
+}
+.rows{
+    width: 460px;
+}
+.feed{
+    display: flex;
+    padding-top: 10px;
+    margin-left: 230px;
+}
+button{
+    height: 25px;
+    width: 75px;
+    margin-right: 20px;
+    background-color: yellow;
+    border: solid black;
+    box-shadow: 3px 2px 1px 1px;
+}
+.top-likes > h3{
+    margin-left: 20px;
+}
+.top-likes{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+#top-like{
+    padding-left: 210px;
+}
+#Dbot{
+    padding: 40px 55px;
+}
+#link{
+    color: blue;
+    text-decoration: underline;
+}
+
+.mid-likes > h3{
+    margin-left: 20px;
+}
+.mid-likes{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+#mid-like{
+    padding-left: 175px;
+}
+#comic{
+    padding: 25px 55px;
+}
+.bot-likes > h3{
+    margin-left: 20px;
+}
+.bot-likes{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+#bot-like{
+    padding-left: 215px;
+}
+#Album{
+    padding: 25px 65px;
+}

@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1200px;
+    margin-left: 30px;
+}
+/*----------Nav bar----------*/
+.navbar{
+    background-color: white;
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    margin-left: 145px;
+}
+.navbar > h1{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+#leaf{
+    background-color: cadetblue;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    display: flex;
+}
+#search-bar{
+height: 40px;
+width: 650px;
+margin-right: 50px;
+border-radius: 20px;
+background-color: whitesmoke
+}
+#sign-in{
+    border: none;
+    background-color: white;
+    height: 30px;
+    width: 50px;
+    margin-top: 10px;
+}
+#cart{
+    background-color: white;
+    border: none;
+}
+#cart > img{
+    width: 50px;
+}
+.quick-container{
+    background-color: black;
+    height: 35px;
+    width: 985px;
+    margin-left: 145px;
+    padding-right: 15px;
+}
+.quick-links{
+    background-color: white;
+    height: 30px;
+    width: 900px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.quick-links > h4{
+    margin-left: 90px;
+}
+/*----------Nav bar----------*/
+
+/*----------header----------*/
+
+#header{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+/*----------header----------*/
+
+/*----------top row----------*/
+.topl-container{
+    text-align: center;
+    height: 320px;
+    width: 635px;
+    margin-left: 145px;
+    background-color: cadetblue;
+    display: flex;
+}
+.par{
+    margin-top: 45px;
+    margin-right: 60px;
+    margin-left: 55px;
+}
+
+#disc{
+    margin-top: 65px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+#disc > img{
+    margin-top: -10px;
+}
+.topr-container{
+    margin-top: -320px;
+    margin-left: 820px;
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+}
+
+.botr-box{
+    height: 100px;
+    width: 325px;
+    background-color: cadetblue;
+    display: flex;
+}
+.botr-box > img{
+    margin-top: 25px;
+    width: 50px;
+    height: 50px;
+}
+.botr-box > h3{
+    color: white;
+    margin-top: 40px;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+/*----------top row----------*/
+
+/*----------bottom row----------*/

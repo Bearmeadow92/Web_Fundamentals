@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gaming Dojo</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1 id="gaming">Gaming<span>Dojo</span></h1>
+            <select id="money" name="money">
+                <option>Euro €</option>
+                <option>USD $</option>
+            </select>
+            <img src="images/cart-light.png" alt="cart">
+            <h3 id="cart-items">0</h3>
+            <img src="images/search-light.png" alt="search">
+        </div>
+        <div>
+            <h3>Highlights</h3>
+        </div>
+        <div class="slider">
+            <button id="chevronr" onclick="switchImgpu()"><img src="images/chevron-right.png" alt="chev-right"></button>
+            <img src="images/stonepunk.png" alt="punk" id="punk-img">
+            <button id="chevronl" onclick="switchImgpi()"><img src="images/chevron-left.png" alt="chev-left"></button>
+        </div>
+        <div class="row">
+            <div class="sub-content"></div>
+            <div class="sub-contentp"></div>
+            <div class="sub-content"></div>
+            <div class="sub-content"></div>
+        </div>
+        <div class="lower-container">
+            <div class="l-box">
+                <div class="tl-box">
+                    <img id="neko" src="images/cafe-neko.png" alt="neko">
+                </div>
+                <h3>Cafe Neko: Gold Edition</h3>
+                <img id="windowst" src="images/windows.png" alt="windows">
+                <img id="applet" src="images/apple.png" alt="apple">
+                <div class="ll-box">
+                    <p id="c">-20%</p>
+                </div>
+                <div id="munl">
+                    <h5><strong>€19.99</strong></h5>
+                </div>
+                <div id="lb">
+                    <button id="buyl" onclick="clickHandler()" >BUY</button>
+                </div>
+            </div>
+            <div class="m-box">
+                <div class="tm-box">
+                    <img id="ninja" src="images/pixel-ninjas-2.png" alt="ninja">
+                </div>
+                <h3>Pixel Ninjas 2</h3>
+                <img id="windowsm" src="images/windows.png" alt="windows">
+                <img id="applem" src="images/apple.png" alt="apple">
+                <div class="mm-box">
+                    <p id="v">-10%</p>
+                </div>
+                <div id="munm">
+                <h5><strong>€7.39</strong></h5>
+                </div>
+                <div id="mb">
+                    <button id="buym" onclick="clickHandler()" >BUY</button>
+                </div>
+            </div>
+            <div class="r-box">
+                <div class="tr-box">
+                    <img id="punk" src="images/stonepunk.png" alt="punk">
+                </div>
+                <h3>Stonepunk 10000 BCE</h3>
+                <img id="windowsb" src="images/windows.png" alt="windows">
+                <img id="appleb" src="images/apple.png" alt="apple">
+                <img id="linux" onclick="alert('this game is supported in linux')" src="images/linux.png" alt="linux">
+                <div class="rr-box">
+                    <p id="b">NEW</p>
+                </div>
+                <div id="munr">
+                    <h5><strong>€19.99</strong></h5>
+                </div>
+                <div id="rb">
+                    <button id="buyr" onclick="clickHandler()" >BUY</button>
+                </div>
+            </div>
+        </div>
+</div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
